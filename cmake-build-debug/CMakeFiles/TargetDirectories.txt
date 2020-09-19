@@ -1,3 +1,3 @@
 /home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles/WebServer_mark.dir
+/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles/webServer.dir

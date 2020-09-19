@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(WebServer_mark)
+project(webServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -18,7 +18,7 @@ include_directories(resources/images)
 include_directories(resources/js)
 include_directories(resources/video)
 
-add_executable(WebServer_mark
+add_executable(webServer
         code/buffer/buffer.cpp
         code/buffer/buffer.h
         code/config/config.h
@@ -59,7 +59,6 @@ add_executable(WebServer_mark
         resources/images/instagram-image3.jpg
         resources/images/instagram-image4.jpg
         resources/images/instagram-image5.jpg
-        resources/images/profile-image.jpg
         resources/js/bootstrap.min.js
         resources/js/custom.js
         resources/js/jquery.js
@@ -81,10 +80,10 @@ add_executable(WebServer_mark
         resources/welcome.html)
 
 # 链接mysql外部库
-target_link_libraries(WebServer_mark libmysqlclient.so)
+target_link_libraries(webServer libmysqlclient.so)
 # 链接libpthread外部库
-target_link_libraries(WebServer_mark libpthread.so)
+target_link_libraries(webServer libpthread.so)
 
 #add_custom_target(WebServer_mark COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}/resources ${CMAKE_CURRENT_SOURCE_DIR}/)
 # copy_directory拷贝文件夹, copy拷贝文件
-add_custom_command(TARGET WebServer_mark PRE_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/resources/ $<TARGET_FILE_DIR:WebServer_mark>/resources)
+add_custom_command(TARGET webServer PRE_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/resources/ $<TARGET_FILE_DIR:webServer>/resources)

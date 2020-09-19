@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/work/cppStudy/code/WebServer-mark/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/WebServer_mark.dir/all
+all: CMakeFiles/webServer.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/WebServer_mark.dir/clean
+clean: CMakeFiles/webServer.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/WebServer_mark.dir
+# Target rules for target CMakeFiles/webServer.dir
 
 # All Build rule for target.
-CMakeFiles/WebServer_mark.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebServer_mark.dir/build.make CMakeFiles/WebServer_mark.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebServer_mark.dir/build.make CMakeFiles/WebServer_mark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target WebServer_mark"
-.PHONY : CMakeFiles/WebServer_mark.dir/all
+CMakeFiles/webServer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target webServer"
+.PHONY : CMakeFiles/webServer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/WebServer_mark.dir/rule: cmake_check_build_system
+CMakeFiles/webServer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/WebServer_mark.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/webServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/cppStudy/code/WebServer-mark/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/WebServer_mark.dir/rule
+.PHONY : CMakeFiles/webServer.dir/rule
 
 # Convenience name for target.
-WebServer_mark: CMakeFiles/WebServer_mark.dir/rule
+webServer: CMakeFiles/webServer.dir/rule
 
-.PHONY : WebServer_mark
+.PHONY : webServer
 
 # clean rule for target.
-CMakeFiles/WebServer_mark.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebServer_mark.dir/build.make CMakeFiles/WebServer_mark.dir/clean
-.PHONY : CMakeFiles/WebServer_mark.dir/clean
+CMakeFiles/webServer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webServer.dir/build.make CMakeFiles/webServer.dir/clean
+.PHONY : CMakeFiles/webServer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
