@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WebServer_mark"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/work/cppStudy/code/WebServer-mark/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/work/cppStudy/code/WebServer-mark/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/work/cppStudy/code/WebServer-mark/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer_mark">
+				<Option output="/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/WebServer_mark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/work/cppStudy/code/WebServer-mark/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/buffer"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/config"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/http"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/log"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/pool"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/server"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/timer"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/css"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/fonts"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/images"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/js"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/video"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_mark"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer_mark/fast">
+				<Option output="/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/WebServer_mark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/work/cppStudy/code/WebServer-mark/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/buffer"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/config"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/http"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/log"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/pool"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/server"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/code/timer"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/css"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/fonts"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/images"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/js"/>
+					<Add directory="/home/work/cppStudy/code/WebServer-mark/resources/video"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_mark/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/work/cppStudy/code/WebServer-mark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/buffer/buffer.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/buffer/buffer.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/config/config.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/http/httpconn.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/http/httpconn.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/http/httprequest.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/http/httprequest.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/http/httpresponse.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/http/httpresponse.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/log/blockqueue.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/log/log.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/log/log.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/main.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/pool/sqlconnRAII.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/pool/sqlconnpool.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/pool/sqlconnpool.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/pool/threadpool.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/server/epoller.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/server/epoller.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/server/webserver.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/server/webserver.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/timer/heaptimer.cpp">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/code/timer/heaptimer.h">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/400.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/403.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/404.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/405.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/css/animate.css">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/css/bootstrap.min.css">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/css/font-awesome.min.css">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/css/magnific-popup.css">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/css/style.css">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/error.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/fonts/FontAwesome.otf">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/fonts/fontawesome-webfont.eot">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/fonts/fontawesome-webfont.svg">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/fonts/fontawesome-webfont.ttf">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/fonts/fontawesome-webfont.woff">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/fonts/fontawesome-webfont.woff2">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/images/favicon.ico">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/images/instagram-image1.jpg">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/images/instagram-image2.jpg">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/images/instagram-image3.jpg">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/images/instagram-image4.jpg">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/images/instagram-image5.jpg">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/images/profile-image.jpg">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/index.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/js/bootstrap.min.js">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/js/custom.js">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/js/jquery.js">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/js/jquery.magnific-popup.min.js">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/js/magnific-popup-options.js">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/js/smoothscroll.js">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/js/wow.min.js">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/login.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/picture.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/register.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/video.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/video/xxx.mp4">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/resources/welcome.html">
+			<Option target="WebServer_mark"/>
+		</Unit>
+		<Unit filename="/home/work/cppStudy/code/WebServer-mark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
